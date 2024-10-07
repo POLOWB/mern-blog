@@ -1,9 +1,8 @@
 
-
-const Signin = () => {
+import { Button } from "flowbite-react"
+export default function Signin(){
   return (
-    <div>Signin</div>
+    <Button>Signin</Button>
   )
 }
 
-export default Signin
